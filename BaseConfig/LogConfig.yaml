@@ -1,0 +1,7 @@
+log:
+    file_name: run.log
+    backup: 5
+    console_level: INFO
+    file_level: DEBUG
+    pattern: '%(asctime)s -%(name)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s'
+    con_pattern: '%(asctime)s - %(message)s'

@@ -1,0 +1,16 @@
+# conding = utf-8
+#:param message: 邮件正文，非必填。
+#:param path: 附件路径，可传入list（多附件）或str（单个附件），非必填。
+#:param server: smtp服务器，必填。
+#:param sender: 发件人，必填。
+#:param password: 发件人密码，必填。
+#:param receiver: 收件人，多收件人用“；”隔开，必填。
+
+on_off: "off"
+title: "测试报告"
+message: "这是今天的测试报告，请查收！"
+server: "220.181.12.15"
+sender: "13752938758@163.com"
+password: "wxl8561523"
+receiver: "wangxinlei@jumapeisong.com"
+

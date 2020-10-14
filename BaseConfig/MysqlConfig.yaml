@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+#
+testdb:
+  host: 10.101.0.14
+  port: 3306
+  user: wangxinlei
+  passwd: juma9156
+  charset: utf8
+  db: crm
